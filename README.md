@@ -39,7 +39,7 @@ This project is a RESTful API for managing blog posts, including categories and 
 
 1. **Clone the repository**
    ```bash
-   git clone  https://github.com/jitend1126/BlogRestApi.git
+   git clone  https://github.com/jitend1126/BlogRestApi/tree/master
    cd BlogRestApi
    ```
 
