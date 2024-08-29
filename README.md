@@ -11,8 +11,6 @@ This project is a RESTful API for managing blog posts, including categories and 
 - [Running the Application](#running-the-application)
 - [API Documentation](#api-documentation)
 - [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [License](#license)
 
 ## Features
 - **CRUD operations for blog posts and comments**
@@ -67,12 +65,12 @@ This project is a RESTful API for managing blog posts, including categories and 
 ## Running the Application
 
 Once the application is running, you can access it at `http://localhost:8080`.
+#It Automatically add User, and Admin Role in database.
 
 ## API Documentation
 
 This project uses **Swagger** for API documentation. Once the application is running, you can access the Swagger UI to explore and test the API at:
-
-- `http://localhost:8080/swagger-ui.html`
+- `http://localhost:8080/swagger-ui/index.html`
 
 Swagger provides a user-friendly interface to interact with the API, view available endpoints, and see detailed request/response structures.
 
@@ -101,14 +99,5 @@ Swagger provides a user-friendly interface to interact with the API, view availa
 - `POST /api/auth/register` - Register a new user
 - `POST /api/auth/login` - Log in with a user account
 
-## Testing
 
-You can run the unit tests using the following command:
 
-```bash
-mvn test
-```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
